@@ -1,13 +1,19 @@
-# Lab_6_Django_Portfolio
+# Lab_7_Django_Portfolio
+
 ## activate virtual environment
 ```
-conda activate base
+conda activate myenv
 ```
 ## Install dependency
 ```
 pip install django
+pip install mysqlclient
 ```
 ## Database migrate
+```
+create database in myphpadmin 
+database name portfolio
+```
 ```
 python manage.py makemigrations
 python manage.py migrate
@@ -16,5 +22,3 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-## Admin Username: shakil
-## Admin Password: 1234@1234
